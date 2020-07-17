@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>jQuery Sortable Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<ol class="example vertical">
+        <li data-id="0" data-name="Item 1" data-url="google.com" class="" style="">
+          <div>
+            <span><i class="fa fa-arrows"></i></span>
+            <input class="name" value="Roles">
+            <input class="url" value="/admin/roles">
+            <button class="external">
+                 <i class="fa fa-external-link"></i>
+            </button>
+            <button class="hide-menu">
+                 <i class="fa fa-eye"></i>
+            </button>
+          </div>
+          <ol></ol>
+        </li>
+        <li data-id="0" data-name="Item 2" data-url="/files" class="" style="">
+          <div>
+            <span><i class="fa fa-arrows"></i></span>
+            <input class="name" value="Files">
+            <input class="url" value="/admin/files">
+            <button class="external">
+                 <i class="fa fa-external-link"></i>
+            </button>
+            <button class="hide-menu">
+                 <i class="fa fa-eye"></i>
+             </button>
+          </div>
+          <ol></ol>
+        </li>
+        <li data-id="0" data-name="Item 3" data-url="/users" class="" style="">
+          <div>
+            <span><i class="fa fa-arrows"></i></span>
+            <input class="name" value="Users">
+            <input class="url" value="/admin/users">
+            <button class="external">
+                 <i class="fa fa-external-link"></i>
+            </button>
+            <button class="hide-menu">
+                 <i class="fa fa-eye"></i>
+             </button>
+          </div>
+          <ol>
+            <li data-id="0" data-name="Item 3" data-url="/users/stats" class="" style="">
+              <div>
+                <span><i class="fa fa-arrows"></i></span>
+                <input class="name" value="Users Stats">
+                <input class="url" value="/admin/users/stats">
+                <button class="external">
+                 <i class="fa fa-external-link"></i>
+            </button>
+                <button class="hide-menu">
+                 <i class="fa fa-eye"></i>
+             </button>
+              </div>
+              <ol></ol>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sortable/0.9.13/jquery-sortable-min.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>

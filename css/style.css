@@ -1,0 +1,62 @@
+body.dragging,
+body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+ol.example li {
+  cursor: move;
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 5px 10px;
+  background-color: #229cff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+ol.example li:hover {
+  background-color: #1190f7;
+}
+ol.example li.placeholder {
+  position: relative;
+  background-color: #7f94a1;
+}
+
+ol.example li.placeholder: before {
+  position: absolute;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: transparent;
+  margin: 0;
+  display: table-cell;
+  cursor: text;
+  min-width: 50px !important;
+  max-width: 99.99% !important;
+  transition: width 0.15s;
+  text-align: center;
+  color: #fff;
+}
+
+input:hover {
+  border: 1px solid #fff;
+}
+
+.external,
+.hide-menu {
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.hide-menu {
+  float: right;
+}
